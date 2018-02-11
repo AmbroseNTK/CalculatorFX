@@ -42,9 +42,6 @@ public class Controller implements Initializable {
     MenuBar mainMenu;
 
 
-    @FXML
-    ListView<ExpressionModel> listExpr;
-
     SequentialTransition showToolTrans;
     SequentialTransition hideToolTrans;
 
@@ -76,10 +73,7 @@ public class Controller implements Initializable {
             }
         });
 
-        listExpr.setCellFactory(p -> new ExpressionCell());
-        expressionModelObservableList = FXCollections.observableArrayList(new ExpressionModel(),new ExpressionModel(),new ExpressionModel());
-        listExpr.setItems(expressionModelObservableList);
-        listExpr.setEditable(true);
+
     }
 
 
@@ -114,8 +108,8 @@ public class Controller implements Initializable {
     }
 
     public void addNewExpr(ActionEvent event){
-        listExpr.getItems().clear();
-        listExpr.getItems().add(new ExpressionModel());
+
+
 
     }
 

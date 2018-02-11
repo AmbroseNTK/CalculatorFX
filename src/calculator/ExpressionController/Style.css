@@ -1,10 +1,10 @@
 .buttonRun{
-    -fx-background-color: #27ae60;
-    -fx-border-color: white;
+    -fx-background-color: white;
+    -fx-border-color:#2680ff;
     -fx-border-width: 2;
 }
 .buttonRun:hover{
-    -fx-background-color: white;
+    -fx-background-color: #27ae60;
     -fx-border-color: #27ae60;
 }
 .buttonDel{

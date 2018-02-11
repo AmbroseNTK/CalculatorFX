@@ -46,13 +46,13 @@ public class ExpressionController {
     private void removeModelListeners()
     {
         model.exprProperty().removeListener(EXPRESSION_CHANGE_LISTENER);
-        model.idProperty().removeListener(ID_CHANGE_LISTENER);
+
     }
 
     private void setupModelListeners()
     {
         model.exprProperty().addListener(EXPRESSION_CHANGE_LISTENER);
-        model.idProperty().addListener(ID_CHANGE_LISTENER);
+
 
     }
 
