@@ -1,0 +1,14 @@
+.menuBar{
+    -fx-background-color: dodgerblue;
+}
+.labelName{
+    -fx-background-color: #2680ff;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+    -fx-text-alignment: right;
+}
+
+.windowButton:hover {
+    -fx-border-color: dodgerblue;
+}
